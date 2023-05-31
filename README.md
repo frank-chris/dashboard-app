@@ -2,6 +2,10 @@
 
 Dashboard app created using Flask and Plotly that visualizes data from a PostgreSQL database.
 
+## Requirements
+
+1. [Docker Desktop](https://docs.docker.com/get-docker/)
+
 ## Note about implementation
 
 1. I have implemented the following features. 
@@ -11,4 +15,3 @@ Dashboard app created using Flask and Plotly that visualizes data from a Postgre
 2. Code follows PEP8, is fully type annotated, and has comments.
 3. Package can be installed and dashboard can be viewed by running `docker compose up` and navigating to http://localhost:8888/.
 4. The line colors of the plots will change when refreshed for the first time so that it is easy to see that the refresh works even if the data in the database has not changed.
-
