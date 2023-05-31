@@ -1,0 +1,2 @@
+recursive-include dashboardapp/templates *
+recursive-include dashboardapp/static *

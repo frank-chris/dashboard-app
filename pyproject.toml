@@ -1,0 +1,29 @@
+[build-system]
+requires = [
+    "setuptools>=61.2",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dashboardapp"
+version = "0.1"
+authors = [
+    { name = "Chris Francis" },
+]
+description = "Dashboard app"
+dependencies = [
+    "Flask",
+    "pandas",
+    "plotly",
+    "psycopg2-binary",
+]
+
+[project.scripts]
+run-app = "dashboardapp.dash_app:run_app"
+
+[tool.setuptools]
+packages = [
+    "dashboardapp",
+]
+zip-safe = false
+include-package-data = true
